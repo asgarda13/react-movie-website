@@ -29,4 +29,4 @@ jobs:
           git pull origin main
           npm install
           npm run build
-          sudo systemctl restart nginx
+          sudo systemctl restart nginx  # Now it won't ask for a password
